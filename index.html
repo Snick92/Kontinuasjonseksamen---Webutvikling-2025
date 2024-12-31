@@ -3,53 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Tittel</title>
+    <title>Kontinasjonseksamen 2025</title>
+
+    <link rel="stylesheet" href="../Kontinuasjonseksamen---Webutvikling-2025/CSS/style.css">
+    <link rel="normalize_css" href="../Kontinuasjonseksamen---Webutvikling-2025/CSS/normalize.css">
 </head>
 <body>
-    <header>
-        <h1>header</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Hjem</a></li>
-                <li><a href="#">Eksempel 1</a></li>
-                <li><a href="#">Eksempel 2</a></li>
-                <li><a href="#">Eksempel 3</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Main</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et porro, iusto sequi quia impedit possimus assumenda, quod doloremque qui tenetur dolorum, perferendis corporis nostrum laborum? Quisquam, repellendus atque fugit porro modi repellat culpa veniam est facere itaque unde! Enim temporibus ratione sed dignissimos doloremque illum earum fuga necessitatibus aperiam totam!</p>
-    </main>
-    <aside>
-        <h3>Aside</h3>
-        <nav>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
-                <li><a href="#">Link 5</a></li>
-                <li><a href="#">Link 6</a></li>
-            </ul>
-        </nav>
-    </aside>
-    <footer>
-        <article>
-            <h4>Footer</h4>
-            <p>Sindre Krondal Andreassen</p>
-            <p>Høgskolen i Østfold, Halden</p>
-            <p>Tlf.: +47 12 34 56 78</p>
-            <p>Epost: eksempel@hiof.no</p>
-        </article>
-        <nav>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
-        </nav>
-    </footer>
+    <div id="grid-space-primary">
+        <header class="global-header">
+            <h1>Header</h1>
+            <nav id="header-nav">
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#">Eksempel 1</a></li>
+                    <li><a href="#">Eksempel 2</a></li>
+                    <li><a href="#">Eksempel 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="global-banner">
+                <h1>Global banner</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, sequi?</p>
+                <button>Les mer</button>
+            </section>
+            <section>
+                <h2>Main</h2>
+                <p id="main-information">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et porro, iusto sequi quia impedit possimus assumenda, quod doloremque qui tenetur dolorum, perferendis corporis nostrum laborum? Quisquam, repellendus atque fugit porro modi repellat culpa veniam est facere itaque unde! Enim temporibus ratione sed dignissimos doloremque illum earum fuga necessitatibus aperiam totam!</p>
+            </section>
+            <section>
+                <h2 id="products_h2">Produkter</h2>
+                <p>Kort beskrivelse av produkter etc.</p>
+            </section>
+            <section id="flex-space">
+                <article class="product-card">
+                    <h3>Produkt 1</h3>
+                    <p>Beskrivelse av produkt</p>
+                    <p>Pris,-</p>
+                </article>
+                <article class="product-card">
+                    <h3>Produkt 2</h3>
+                    <p>Beskrivelse av produkt</p>
+                    <p>Pris,-</p>
+                </article>
+                <article class="product-card">
+                    <h3>Produkt 3</h3>
+                    <p>Beskrivelse av produkt</p>
+                    <p>Pris,-</p>
+                </article>
+                <article class="product-card">
+                    <h3>Produkt 4</h3>
+                    <p>Beskrivelse av produkt</p>
+                    <p>Pris,-</p>
+                </article>
+            </section>
+        </main>
+        <aside>
+            <h2>Aside</h2>
+            <nav id="aside-nav">
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#">Link 6</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <footer>
+            <article>
+                <h4>Footer</h4>
+                <p>Sindre Krondal Andreassen</p>
+                <p>Høgskolen i Østfold, Halden</p>
+                <p>Tlf.: +47 12 34 56 78</p>
+                <p>Epost: eksempel@hiof.no</p>
+            </article>
+            <nav>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>
