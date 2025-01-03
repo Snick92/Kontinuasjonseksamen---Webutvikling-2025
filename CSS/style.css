@@ -67,8 +67,20 @@ aside{
 /*FOOTER*/
 footer{
     grid-area: footer;
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+
+    ul{
+        list-style: none;
+        
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+    }
 }
 
+/* - - - - - BREAKPOINT MOBILE to TAB - - - - - */
 @media (min-width: 430px){
     /*PRIMARY GRID*/
     #grid-space-primary{
